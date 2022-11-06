@@ -1,0 +1,51 @@
+.filters-container {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin-left: 8%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.left-filters {
+  display: flex;
+  list-style-type: none;
+
+  align-items: center;
+}
+.right-filters {
+  display: flex;
+  list-style-type: none;
+  margin-left: 0px;
+  overflow-x: hidden;
+}
+.left-filter-button {
+  background-color: transparent;
+  border: 1px solid lightgray;
+  border-radius: 30px;
+  margin-left: 14px;
+  margin-right: 14px;
+  cursor: pointer;
+  outline: none;
+  min-width: 50px;
+  align-items: center;
+}
+
+.right-filter-button {
+  background-color: lightgray;
+  border: 1px solid lightgray;
+  border-radius: 30px;
+  min-width: 100px;
+  margin-right: 14px;
+  cursor: pointer;
+  outline: none;
+  align-items: center;
+}
+.vl {
+  border-left: 1px solid black;
+  height: 50px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}

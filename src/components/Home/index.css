@@ -1,0 +1,73 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  margin: auto;
+}
+
+.plans-list-container {
+  margin-top: 0px;
+}
+
+.banner-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.plans-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.plans-heading {
+  font-size: 15px;
+  color: #273538;
+}
+
+.show-all {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .show-all {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .right-arrow {
+    display: none;
+  }
+}
+.banner-heading {
+  font-size: 20px;
+  color: #273538;
+}
+.slick-container {
+  width: 80%;
+  margin-left: 10%;
+  justify-content: center;
+}
+
+.slick-banner-container {
+  width: 80%;
+  margin-left: 10%;
+  justify-content: center;
+}
+
+.logo-image {
+  margin: 0px 10px;
+  height: 100px;
+  width: 100px;
+}
+
+.banner {
+  margin: 30px;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
